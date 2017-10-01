@@ -1,0 +1,23 @@
+{
+  "name": "qghost-s3",
+  "version": "1.0.0",
+  "description": "An AWS S3 storage adapter for the ghost blogging platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qassim/qGhost-s3.git"
+  },
+  "author": "Qassim Farid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qassim/qGhost-s3/issues"
+  },
+  "homepage": "https://github.com/qassim/qGhost-s3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.125.0",
+    "ghost-storage-base": "0.0.1"
+  }
+}
